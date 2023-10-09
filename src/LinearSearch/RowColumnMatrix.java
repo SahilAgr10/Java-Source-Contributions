@@ -2,8 +2,11 @@ package LinearSearch;
 import java.util.*;
 public class RowColumnMatrix {
     public static void main(String[] args) {
-        int[][] arr = {{1,2,3},{4,8,10},{12,15,25}};
-        int target = 123;
+        int[][] arr = {{ 1 ,2,3},
+                       {4 ,8,37},
+                       {35,45,55}
+                       };// clearly 37 is greater than 35 thus it is not sorted array
+        int target = 37;
         System.out.println(Arrays.toString(search(arr,target)));
     }
     static int[] search(int[][] arr, int target){
