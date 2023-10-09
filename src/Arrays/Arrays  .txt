@@ -1,0 +1,8 @@
+Arrays : 
+1. Arrays.toString() : converts the array to string for us and returns the array 
+   - primitive datatypes for stores in stack memory while Object datatypes are in heap memory 
+   - String[] str = new String[4];
+   - null is used as a default for object datatypes
+   - here String[] str is done at compile time while new String[4] is proceesed at runtime(dynamic memory allocation);
+2. 2D array syntax : int[][] arr = new int[3][3]; 
+3. ArrayList<Integer> list = new ArrayList<>();
