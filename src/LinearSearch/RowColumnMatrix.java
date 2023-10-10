@@ -16,6 +16,8 @@ public class RowColumnMatrix {
             if(arr[row][col]==target) return new int[]{row,col};
             else if(arr[row][col]< target) row ++;
             else col--;
+
+
         }
         return new int[] {-1,-1};
     }
